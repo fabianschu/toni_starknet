@@ -1,0 +1,31 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "user_number",
+                "type": "felt"
+            }
+        ],
+        "name": "echo_world",
+        "outputs": [
+            {
+                "name": "user_number_echoed",
+                "type": "felt"
+            },
+            {
+                "name": "short_string",
+                "type": "felt"
+            },
+            {
+                "name": "mangled_string",
+                "type": "felt"
+            },
+            {
+                "name": "hello_string",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
