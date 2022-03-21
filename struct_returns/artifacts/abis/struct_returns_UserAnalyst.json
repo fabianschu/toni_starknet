@@ -1,0 +1,22 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "database_address",
+                "type": "felt"
+            },
+            {
+                "name": "user_id",
+                "type": "felt"
+            }
+        ],
+        "name": "score_user",
+        "outputs": [
+            {
+                "name": "score",
+                "type": "felt"
+            }
+        ],
+        "type": "function"
+    }
+]
