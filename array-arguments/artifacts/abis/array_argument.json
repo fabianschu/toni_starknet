@@ -1,0 +1,29 @@
+[
+    {
+        "inputs": [],
+        "name": "get",
+        "outputs": [
+            {
+                "name": "stored",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "input_array_len",
+                "type": "felt"
+            },
+            {
+                "name": "input_array",
+                "type": "felt*"
+            }
+        ],
+        "name": "save",
+        "outputs": [],
+        "type": "function"
+    }
+]
