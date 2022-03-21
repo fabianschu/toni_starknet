@@ -1,0 +1,27 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "first",
+                "type": "felt"
+            },
+            {
+                "name": "second",
+                "type": "felt"
+            }
+        ],
+        "name": "get_calculations",
+        "outputs": [
+            {
+                "name": "sum",
+                "type": "felt"
+            },
+            {
+                "name": "modulo",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

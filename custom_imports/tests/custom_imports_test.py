@@ -25,4 +25,3 @@ async def test_contract(contract_factory):
     # by its name defined in the contract return statement.
     assert response.result.sum == num_1 + num_2
     assert response.result.modulo == num_1 % num_2
-
