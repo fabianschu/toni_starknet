@@ -1,0 +1,36 @@
+[
+    {
+        "inputs": [
+            {
+                "name": "address_of_contract_A",
+                "type": "felt"
+            }
+        ],
+        "name": "constructor",
+        "outputs": [],
+        "type": "constructor"
+    },
+    {
+        "inputs": [],
+        "name": "read_number",
+        "outputs": [
+            {
+                "name": "res",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "input",
+                "type": "felt"
+            }
+        ],
+        "name": "increment",
+        "outputs": [],
+        "type": "function"
+    }
+]

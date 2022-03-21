@@ -1,0 +1,40 @@
+[
+    {
+        "inputs": [],
+        "name": "get_AB_system_status",
+        "outputs": [
+            {
+                "name": "system_sum",
+                "type": "felt"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "increment_for_A",
+                "type": "felt"
+            },
+            {
+                "name": "increment_for_B",
+                "type": "felt"
+            }
+        ],
+        "name": "update_AB_system",
+        "outputs": [],
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "address",
+                "type": "felt"
+            }
+        ],
+        "name": "set_B_address",
+        "outputs": [],
+        "type": "function"
+    }
+]
